@@ -1,0 +1,37 @@
+Sistema de Gerenciamento Escolar
+Descrição
+Este projeto cria um sistema de gerenciamento escolar básico utilizando MySQL. Ele inclui funcionalidades para cadastrar alunos, cursos e notas, bem como realizar consultas para análise de desempenho dos alunos. O projeto é ideal para fins de aprendizado sobre banco de dados relacionais e SQL.
+
+Estrutura do Projeto
+Banco de Dados: Escola
+Tabelas:
+Alunos: Armazena as informações dos alunos (ID, nome, data de nascimento, endereço).
+Cursos: Armazena os cursos oferecidos pela escola (ID, nome do curso, descrição).
+Notas: Armazena as notas dos alunos em cada curso (ID, ID do aluno, ID do curso, nota).
+Funcionalidades
+Inserção de Dados: Inserir novos alunos, cursos e notas.
+Consultas:
+Listar todos os alunos juntamente com suas notas em cada curso.
+Calcular a média das notas para cada curso.
+Identificar o aluno com a maior nota em cada curso.
+Atualização de Dados:
+Atualizar a nota de um aluno em um curso específico.
+Modificar o endereço de um aluno.
+Exclusão de Dados:
+Excluir um aluno e todas as suas notas associadas.
+Remover um curso e todas as notas associadas a ele.
+Como Executar
+Criação do Banco de Dados:
+
+Execute o script SQL fornecido para criar o banco de dados Escola e as tabelas Alunos, Cursos, e Notas.
+Inserção de Dados:
+
+Execute os comandos INSERT INTO para adicionar dados nas tabelas Alunos, Cursos, e Notas.
+Consultas e Operações:
+
+Utilize os comandos SQL fornecidos para executar as consultas e operações de atualização/exclusão.
+Requisitos
+MySQL ou MariaDB instalado.
+Cliente de banco de dados MySQL (como MySQL Workbench) ou terminal com acesso ao MySQL.
+Estrutura do Projeto
+script.sql: Contém todos os comandos SQL necessários para criar o banco de dados, tabelas, inserções e consultas.
