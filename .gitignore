@@ -1,0 +1,25 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Banco de dados e dumps
+*.sql
+*.db
+
+# Configurações locais
+.env
+.idea/
+.vscode/
+
+# Dependências
+node_modules/
+vendor/
+
+# Outros
+*.swp
+*.swo
