@@ -35,3 +35,4 @@ MySQL ou MariaDB instalado.
 Cliente de banco de dados MySQL (como MySQL Workbench) ou terminal com acesso ao MySQL.
 Estrutura do Projeto
 script.sql: Contém todos os comandos SQL necessários para criar o banco de dados, tabelas, inserções e consultas.
+
